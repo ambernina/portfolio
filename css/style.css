@@ -161,5 +161,9 @@ a:hover {
 }
 .card {
 	height: 400px;
-	margin-right: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.row.d-flex {
+    margin-left: 10px;
 }
