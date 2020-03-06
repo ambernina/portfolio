@@ -166,3 +166,12 @@ a:hover {
 .row.d-flex {
     margin-left: 10px;
 }
+
+.card-columns {
+	@include media-breakpoint-only(lg) {
+	  column-count: auto;
+	}
+	@include media-breakpoint-only(xl) {
+	  column-count: auto;
+	}
+  }
